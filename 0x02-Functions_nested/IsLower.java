@@ -1,8 +1,12 @@
+
 public class IsLower{
+	static char letter = 'A';
 
 	public static void main(String[] args){
-		char letter = 'a';
+		isLower();
+	}
 
+	static void  isLower(){
 		if(letter >= 'a' && letter <= 'z'){
 			System.out.print(1);
 		}
