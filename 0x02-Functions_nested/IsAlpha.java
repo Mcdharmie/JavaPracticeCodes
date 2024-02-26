@@ -1,7 +1,12 @@
 public class IsAlpha{
-
+	static char letter = 'a';
 	public static void main(String[] args){
-		char letter = 'a';
+
+		is_alpha();
+
+	}
+
+	static void is_alpha(){
 
 		if((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z')){
 			System.out.print(1);
